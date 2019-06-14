@@ -1,0 +1,568 @@
+[2019-06-14T04:50:48.824Z] [   debug] ## Starting deploy pkg operation
+[2019-06-14T04:50:48.824Z] [   debug] Deploying /var/run/2b613f65/cust3345531277469377729.cab
+[2019-06-14T04:50:48.824Z] [    info] Initializing deployment module. 
+
+[2019-06-14T04:50:48.824Z] [    info] Cleaning old state file from tmp directory. 
+
+[2019-06-14T04:50:48.824Z] [    info] EXIT STATE INPROGRESS 
+
+[2019-06-14T04:50:48.824Z] [   debug] Setting deploy error: Error removing lock /tmp/.vmware-deploy.INPROGRESS (No such file or directory) 
+
+[2019-06-14T04:50:48.824Z] [    info] EXIT STATE Done 
+
+[2019-06-14T04:50:48.824Z] [   debug] Setting deploy error: Error removing lock /tmp/.vmware-deploy.Done (No such file or directory) 
+
+[2019-06-14T04:50:48.824Z] [    info] EXIT STATE ERRORED 
+
+[2019-06-14T04:50:48.824Z] [   debug] Setting deploy error: Error removing lock /tmp/.vmware-deploy.ERRORED (No such file or directory) 
+
+[2019-06-14T04:50:48.824Z] [   debug] Setting deploy error: Success. 
+
+[2019-06-14T04:50:48.824Z] [    info] Deploying cabinet file /var/run/2b613f65/cust3345531277469377729.cab. 
+
+[2019-06-14T04:50:48.824Z] [    info] Transitioning from state (null) to state INPROGRESS. 
+
+[2019-06-14T04:50:48.824Z] [    info] ENTER STATE INPROGRESS 
+
+[2019-06-14T04:50:48.826Z] [    info] Reading cabinet file /var/run/2b613f65/cust3345531277469377729.cab. 
+
+[2019-06-14T04:50:48.826Z] [    info] Flags in the header: 0
+
+[2019-06-14T04:50:48.826Z] [    info] Original deployment command: /usr/bin/perl -I/tmp/.vmware/linux/deploy/scripts /tmp/.vmware/linux/deploy/scripts/Customize.pl /tmp/.vmware/linux/deploy/cust.cfg
+
+[2019-06-14T04:50:48.826Z] [    info] Actual deployment command: /usr/bin/perl -I/tmp/.vmware-imgcust-dwZWof2/scripts /tmp/.vmware-imgcust-dwZWof2/scripts/Customize.pl /tmp/.vmware-imgcust-dwZWof2/cust.cfg
+
+[2019-06-14T04:50:48.826Z] [    info] Extracting package files. 
+
+[2019-06-14T04:50:48.844Z] [   debug] Check if cust.cfg exists.
+[2019-06-14T04:50:48.844Z] [    info] cust.cfg is found in '/tmp/.vmware-imgcust-dwZWof2' directory.
+[2019-06-14T04:50:48.844Z] [   debug] Command to exec : /usr/bin/cloud-init 
+
+[2019-06-14T04:50:48.844Z] [    info] sizeof ProcessInternal is 56
+
+[2019-06-14T04:50:48.844Z] [    info] Returning, pending output from stdout
+[2019-06-14T04:50:48.844Z] [    info] Returning, pending output from stderr
+[2019-06-14T04:50:49.547Z] [    info] Saving output from stdout
+[2019-06-14T04:50:49.647Z] [    info] Process exited normally after 0 seconds, returned 0
+[2019-06-14T04:50:49.647Z] [    info] No more output from stdout
+[2019-06-14T04:50:49.647Z] [    info] No more output from stderr
+[2019-06-14T04:50:49.647Z] [    info] Customization command output: /usr/bin/cloud-init 19.1-1-gbaa47854-0ubuntu1~18.04.1
+
+
+[2019-06-14T04:50:49.647Z] [    info] cloud-init is installed
+[2019-06-14T04:50:49.647Z] [    info] Checking if cloud.cfg exists and if cloud-init is enabled.
+[2019-06-14T04:50:49.647Z] [    info] Executing traditional GOSC workflow
+[2019-06-14T04:50:49.647Z] [   debug] Command to exec : /usr/bin/perl 
+
+[2019-06-14T04:50:49.647Z] [    info] sizeof ProcessInternal is 56
+
+[2019-06-14T04:50:49.648Z] [    info] Returning, pending output from stdout
+[2019-06-14T04:50:49.648Z] [    info] Returning, pending output from stderr
+[2019-06-14T04:50:49.954Z] [    info] Saving output from stdout
+[2019-06-14T04:50:49.954Z] [    info] Saving output from stdout
+[2019-06-14T04:50:49.954Z] [    info] Saving output from stdout
+[2019-06-14T04:50:49.954Z] [    info] Saving output from stdout
+[2019-06-14T04:50:49.954Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.055Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.055Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.155Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.255Z] [    info] Process exited normally after 0 seconds, returned 0
+[2019-06-14T04:50:50.255Z] [    info] Saving output from stdout
+[2019-06-14T04:50:50.255Z] [    info] No more output from stdout
+[2019-06-14T04:50:50.255Z] [    info] No more output from stderr
+[2019-06-14T04:50:50.255Z] [    info] Customization command output: INFO: Opening file name /tmp/.vmware-imgcust-dwZWof2/cust.cfg. 
+DEBUG: Processing line: '[NETWORK]' 
+DEBUG: FOUND CATEGORY = NETWORK 
+DEBUG: Processing line: 'NETWORKING = yes' 
+DEBUG: ADDED KEY-VAL :: 'NETWORK|NETWORKING' = 'yes' 
+DEBUG: Processing line: 'BOOTPROTO = dhcp' 
+DEBUG: ADDED KEY-VAL :: 'NETWORK|BOOTPROTO' = 'dhcp' 
+DEBUG: Processing line: 'HOSTNAME = Ubuntu-abk' 
+DEBUG: ADDED KEY-VAL :: 'NETWORK|HOSTNAME' = 'Ubuntu-abk' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '[NIC-CONFIG]' 
+DEBUG: FOUND CATEGORY = NIC-CONFIG 
+DEBUG: Processing line: 'NICS = NIC1' 
+DEBUG: ADDED KEY-VAL :: 'NIC-CONFIG|NICS' = 'NIC1' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '[NIC1]' 
+DEBUG: FOUND CATEGORY = NIC1 
+DEBUG: Processing line: 'MACADDR = 00:50:56:01:73:d1' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|MACADDR' = '00:50:56:01:73:d1' 
+DEBUG: Processing line: 'PRIMARY = yes' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|PRIMARY' = 'yes' 
+DEBUG: Processing line: 'ONBOOT = yes' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|ONBOOT' = 'yes' 
+DEBUG: Processing line: 'IPv4_MODE = BACKWARDS_COMPATIBLE' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|IPv4_MODE' = 'BACKWARDS_COMPATIBLE' 
+DEBUG: Processing line: 'BOOTPROTO = static' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|BOOTPROTO' = 'static' 
+DEBUG: Processing line: 'IPADDR = 10.1.0.3' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|IPADDR' = '10.1.0.3' 
+DEBUG: Processing line: 'NETMASK = 255.255.255.0' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|NETMASK' = '255.255.255.0' 
+DEBUG: Processing line: 'GATEWAY = 10.1.0.254' 
+DEBUG: ADDED KEY-VAL :: 'NIC1|GATEWAY' = '10.1.0.254' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '[DNS]' 
+DEBUG: FOUND CATEGORY = DNS 
+DEBUG: Processing line: 'DNSFROMDHCP=no' 
+DEBUG: ADDED KEY-VAL :: 'DNS|DNSFROMDHCP' = 'no' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: 'NAMESERVER|1 = 10.1.0.254' 
+DEBUG: ADDED KEY-VAL :: 'DNS|NAMESERVER|1' = '10.1.0.254' 
+DEBUG: Processing line: 'NAMESERVER|2 = 8.8.8.8' 
+DEBUG: ADDED KEY-VAL :: 'DNS|NAMESERVER|2' = '8.8.8.8' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '[MISC]' 
+DEBUG: FOUND CATEGORY = MISC 
+DEBUG: Processing line: 'MARKER-ID=94e647c5-74a2-478b-8f2d-f85d3c8e7ba4' 
+DEBUG: ADDED KEY-VAL :: 'MISC|MARKER-ID' = '94e647c5-74a2-478b-8f2d-f85d3c8e7ba4' 
+DEBUG: Processing line: 'POST-GC-STATUS=yes' 
+DEBUG: ADDED KEY-VAL :: 'MISC|POST-GC-STATUS' = 'yes' 
+DEBUG: Processing line: '' 
+DEBUG: Empty line. Ignored. 
+DEBUG: Processing line: '[PASSWORD]' 
+DEBUG: FOUND CATEGORY = PASSWORD 
+DEBUG: Processing line: '***********************' 
+DEBUG: ADDED KEY-VAL :: 'PASSWORD|-PASS' = '*****************' 
+DEBUG: Processing line: 'RESET=no' 
+DEBUG: ADDED KEY-VAL :: 'PASSWORD|RESET' = 'no' 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+WARNING: RedHat release file not available. Ignoring it. 
+WARNING: Redhat flavor not detected 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+WARNING: RedHat release file not available. Ignoring it. 
+WARNING: Redhat flavor not detected 
+DEBUG: Command: 'cat /etc/lsb-release' 
+DEBUG: Result: DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Command: 'cat /etc/lsb-release' 
+DEBUG: Result: DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Command: 'cat /etc/lsb-release' 
+DEBUG: Result: DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Command: 'cat /etc/lsb-release' 
+DEBUG: Result: DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+ 
+DEBUG: Exit Code: 0 
+INFO: Detected distribution: Ubuntu Linux Distribution 
+DEBUG: Reading issue file ...  
+DEBUG: Command: 'cat /etc/issue' 
+DEBUG: Result: Ubuntu 18.04.2 LTS \n \l
+
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Ubuntu 18.04.2 LTS \n \l
+
+ 
+INFO: Detected distribution flavour: Ubuntu 
+INFO: Get Tools Daemon Command Line 
+DEBUG: Command: 'ps -C vmtoolsd -o cmd=' 
+DEBUG: Result: /usr/bin/vmtoolsd
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Command: '/usr/bin/vmtoolsd --cmd "info-set guestinfo.gc.status Started"' 
+DEBUG: Result: 
+ 
+DEBUG: Exit Code: 0 
+INFO: Checking if can run 'Customize' workflow 
+INFO: Calling 'Customize' method 
+DEBUG: Command: 'hostname 2>/dev/null' 
+DEBUG: Result: ubuntu1804
+ 
+DEBUG: Exit Code: 0 
+DEBUG: TimedCommand: 'hostname -f 2>/dev/null' with timeout of 5 sec 
+DEBUG: Fetching result from /tmp/timed_out_tmp_file_917 
+DEBUG: TimedResult:  
+DEBUG: opening file /etc/hostname. 
+DEBUG: Match found   : Line = ubuntu1804
+ 
+DEBUG: Actual String : ubuntu1804 
+INFO: OLD HOST NAME = ubuntu1804 
+INFO: Handling pre-customization ...  
+INFO: RunCustomScript invoked in '/tmp/.vmware-imgcust-dwZWof2/' for 'precustomization' 
+INFO: No customization script to run 
+INFO: RunCustomScript has completed 
+INFO: Customizing Network settings ...  
+INFO: Erasing DHCP leases 
+DEBUG: Command: 'pkill dhclient' 
+DEBUG: Result:  
+DEBUG: Exit Code: 256 
+DEBUG: Command: 'rm -f /var/lib/dhcp/*' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+DEBUG: Host name is Ubuntu-abk 
+DEBUG: opening file for writing (/etc/hostname). 
+DEBUG: Command: 'chmod 644 /etc/hostname' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Customizing NICS ...  
+DEBUG: Command: 'modprobe pcnet32 2> /dev/null' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+DEBUG: Command: '/sbin/ifconfig eth0 2> /dev/null' 
+DEBUG: Result: eth0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 00:50:56:01:73:d0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ 
+DEBUG: Exit Code: 0 
+INFO: Customizing NICS. { NIC1 } 
+INFO: Customizing NIC NIC1 
+DEBUG: Command: '/sbin/ifconfig -a' 
+DEBUG: Result: eth0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 00:50:56:01:73:d0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.1.0.3  netmask 255.255.255.0  broadcast 10.1.0.255
+        inet6 fe80::250:56ff:fe01:73d1  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:01:73:d1  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1  bytes 90 (90.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 88  bytes 6480 (6.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 88  bytes 6480 (6.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ 
+DEBUG: Exit Code: 0 
+INFO: NIC suffix = ether 
+INFO: Configuring gateway from the primary NIC 'NIC1' 
+INFO: Query config for ^(NIC1\|IPv6ADDR\|) 
+INFO: Query config for ^(NIC1\|IPv6NETMASK\|) 
+INFO: Query config for ^NIC1(\|IPv6GATEWAY\|) 
+DEBUG: Command: 'mv /etc/network/interfaces /etc/network/interfaces.BeforeVMwareCustomization' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+DEBUG: opening file for writing (/etc/network/interfaces). 
+INFO: Customizing Hosts file ...  
+DEBUG: Old hostname=[ubuntu1804] 
+DEBUG: Old FQDN=[] 
+DEBUG: New hostname=[Ubuntu-abk] 
+DEBUG: Building FQDN. HostnameFQDN: Ubuntu-abk, Domainname:  
+DEBUG: New FQDN=[Ubuntu-abk] 
+DEBUG: opening file /etc/hosts. 
+DEBUG: Line (inp): 127.0.0.1	localhost.localdomain	localhost
+ 
+DEBUG: Line (inp): ::1		localhost6.localdomain6	localhost6
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): # The following lines are desirable for IPv6 capable hosts
+ 
+DEBUG: Line (inp): ::1     localhost ip6-localhost ip6-loopback
+ 
+DEBUG: Line (inp): fe00::0 ip6-localnet
+ 
+DEBUG: Line (inp): ff02::1 ip6-allnodes
+ 
+DEBUG: Line (inp): ff02::2 ip6-allrouters
+ 
+DEBUG: Line (inp): ff02::3 ip6-allhosts
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 10.1.0.3	Ubuntu-1804-001-003
+ 
+DEBUG: Line (inp): 
+ 
+DEBUG: Line (inp): 10.1.0.3	Ubuntu-abk
+ 
+DEBUG: Static ip entry added 
+DEBUG: Line (out): 127.0.0.1	localhost.localdomain	localhost
+ 
+DEBUG: Line (out): ::1		localhost6.localdomain6	localhost6
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): # The following lines are desirable for IPv6 capable hosts
+ 
+DEBUG: Line (out): ::1     localhost ip6-localhost ip6-loopback
+ 
+DEBUG: Line (out): fe00::0 ip6-localnet
+ 
+DEBUG: Line (out): ff02::1 ip6-allnodes
+ 
+DEBUG: Line (out): ff02::2 ip6-allrouters
+ 
+DEBUG: Line (out): ff02::3 ip6-allhosts
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 10.1.0.3	Ubuntu-1804-001-003
+ 
+DEBUG: Line (out): 
+ 
+DEBUG: Line (out): 
+10.1.0.3	Ubuntu-abk
+ 
+DEBUG: opening file for writing (/etc/hosts). 
+DEBUG: Command: 'chmod 644 /etc/hosts' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Customizing DNS ...  
+DEBUG: opening file /etc/nsswitch.conf. 
+DEBUG: opening file for writing (/etc/nsswitch.conf). 
+DEBUG: Command: 'chmod 644 /etc/nsswitch.conf' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Query config for ^(DNS\|SUFFIX\|) 
+INFO: Query config for ^(DNS\|NAMESERVER\|) 
+DEBUG: Match Found : DNS|NAMESERVER|2 
+DEBUG: 0 
+DEBUG: Match Found : DNS|NAMESERVER|1 
+DEBUG: 1 
+DEBUG: opening file for writing (/etc/resolv.conf). 
+DEBUG: Command: 'chmod 644 /etc/resolv.conf' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Query config for ^(DNS\|SUFFIX\|) 
+INFO: Query config for ^(DNS\|NAMESERVER\|) 
+DEBUG: Match Found : DNS|NAMESERVER|2 
+DEBUG: 0 
+DEBUG: Match Found : DNS|NAMESERVER|1 
+DEBUG: 1 
+DEBUG: opening file for writing (/etc/dhcp3/dhclient.conf). 
+DEBUG: Command: 'chmod 644 /etc/dhcp3/dhclient.conf' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Customizing Date&Time ...  
+INFO: Handling password settings ...  
+INFO: Changing the password... 
+DEBUG: Command: '/bin/cp -f /etc/shadow /etc/shadow.copy' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: password utils 
+DEBUG: Command: '**************' 
+DEBUG: Exit Code: 0 
+DEBUG: Command: '/bin/rm -f /etc/shadow.copy' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Changing the password is complete 
+INFO: Handling post-customization ...  
+INFO: RunCustomScript invoked in '/tmp/.vmware-imgcust-dwZWof2/' for 'postcustomization' 
+INFO: No customization script to run 
+INFO: RunCustomScript has completed 
+INFO: Handling marker creation ...  
+DEBUG: Command: '/bin/rm -f /.markerfile-*.txt' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+DEBUG: Command: '/bin/touch /.markerfile-94e647c5-74a2-478b-8f2d-f85d3c8e7ba4.txt' 
+DEBUG: Result:  
+DEBUG: Exit Code: 0 
+INFO: Get Tools Daemon Command Line 
+DEBUG: Command: 'ps -C vmtoolsd -o cmd=' 
+DEBUG: Result: /usr/bin/vmtoolsd
+ 
+DEBUG: Exit Code: 0 
+DEBUG: Command: '/usr/bin/vmtoolsd --cmd "info-set guestinfo.gc.status Successful"' 
+DEBUG: Result: 
+ 
+DEBUG: Exit Code: 0 
+INFO: Customization completed. 
+
+
+[2019-06-14T04:50:50.255Z] [    info] No nics to enable.
+
+[2019-06-14T04:50:50.255Z] [    info] Transitioning from state INPROGRESS to state Done. 
+
+[2019-06-14T04:50:50.255Z] [    info] ENTER STATE Done 
+
+[2019-06-14T04:50:50.256Z] [    info] EXIT STATE INPROGRESS 
+
+[2019-06-14T04:50:50.256Z] [    info] Deployment succeeded. 
+
+[2019-06-14T04:50:50.256Z] [    info] Launching cleanup. 
+
+[2019-06-14T04:50:50.256Z] [   debug] Command to exec : /bin/rm 
+
+[2019-06-14T04:50:50.256Z] [    info] sizeof ProcessInternal is 56
+
+[2019-06-14T04:50:50.256Z] [    info] Returning, pending output from stdout
+[2019-06-14T04:50:50.256Z] [    info] Returning, pending output from stderr
+[2019-06-14T04:50:50.356Z] [    info] Process exited normally after 0 seconds, returned 0
+[2019-06-14T04:50:50.356Z] [    info] No more output from stdout
+[2019-06-14T04:50:50.356Z] [    info] No more output from stderr
+[2019-06-14T04:50:50.356Z] [    info] Customization command output: 
+
+[2019-06-14T04:50:50.356Z] [    info] sSkipReboot: false, forceSkipReboot false
+
+[2019-06-14T04:50:50.356Z] [   debug] Ran DeployPkg_DeployPackageFromFile successfully
+[2019-06-14T04:50:50.356Z] [   debug] ## Closing log
+[2019-06-14T04:50:50.356Z] [    info] Rebooting
+
+[2019-06-14T04:50:50.356Z] [   debug] Command to exec : /sbin/telinit 
+
+[2019-06-14T04:50:50.356Z] [    info] sizeof ProcessInternal is 56
+
+[2019-06-14T04:50:50.357Z] [    info] Returning, pending output from stdout
+[2019-06-14T04:50:50.357Z] [    info] Returning, pending output from stderr
+[2019-06-14T04:50:50.557Z] [    info] Process exited normally after 0 seconds, returned 0
+[2019-06-14T04:50:50.557Z] [    info] No more output from stdout
+[2019-06-14T04:50:50.557Z] [    info] No more output from stderr
+[2019-06-14T04:50:50.557Z] [    info] Customization command output: 
+
+[2019-06-14T04:50:50.662Z] [    info] Rebooting
+
+[2019-06-14T04:50:50.662Z] [   debug] Command to exec : /sbin/telinit 
+
+[2019-06-14T04:50:50.662Z] [    info] sizeof ProcessInternal is 56
+
+[2019-06-14T04:50:50.663Z] [    info] Returning, pending output from stdout
+[2019-06-14T04:50:50.663Z] [    info] Returning, pending output from stderr
+[2019-06-14T04:50:50.763Z] [    info] Process exited normally after 0 seconds, returned 1
+[2019-06-14T04:50:50.763Z] [    info] No more output from stdout
+[2019-06-14T04:50:50.763Z] [    info] Saving output from stderr
+[2019-06-14T04:50:50.763Z] [    info] No more output from stderr
+[2019-06-14T04:50:50.763Z] [    info] Customization command output: 
+
+[2019-06-14T04:50:50.763Z] [   error] Customization command failed with exitcode: 1, stderr: Failed to connect to bus: No such file or directory
+Failed to open /dev/initctl: No such device or address
+Failed to talk to init daemon.
+
+
+[2019-06-14T04:50:51.763Z] [   error] telinit returned error 1
+
